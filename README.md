@@ -10,7 +10,7 @@ Navegador web (Chrome, Edge o Firefox)
 Es necesario tener el backend en ejecución antes de iniciar el frontend.  
 También es necesario haber creado previamente la red de Docker definida en el backend:
 
-docker network create reto-network
+    docker network create reto-network
 
 
 ## Ejecución
@@ -25,8 +25,8 @@ http://localhost:3000
 
 ## Conexión con el backend
 El frontend consume la API desde:
-
-http://localhost:8000
+    * API: http://localhost:8000
+    * Swagger: http://localhost:8000/docs
 
 
 ## Tecnologías

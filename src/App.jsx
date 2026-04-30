@@ -109,7 +109,7 @@ export default function App() {
 
             <div className="question-meta">
               <span className="question-meta-item">
-                Reputación: <strong>{data.owner?.reputation}</strong>
+                Reputación: <strong>{data.reputation}</strong>
               </span>
               <span className="question-meta-item">
                 Respuestas: <strong>{data.answer_count}</strong>
