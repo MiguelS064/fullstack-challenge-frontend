@@ -1,0 +1,12 @@
+services:
+  frontend:
+    build: .
+    container_name: frontend
+    ports:
+      - "3000:80"
+    networks:
+      - reto-network
+
+networks:
+  reto-network:
+    external: true
